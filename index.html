@@ -16,7 +16,7 @@
 body{ color:#777;}
 .screen-main p{ color:#333; line-height:30px;}
 .screen-main p.text-mute{ color:#999;}
-h4{ color:#222;}
+h4{ color:#222;font-size: }
 </style>
 <script>
 $(document).ready(function() {
@@ -111,10 +111,13 @@ $(document).ready(function() {
 <div class="section section1">
 	<div class="screen-main">
     <h5><img src="images/13959035523790.png"></h5>
-    <h4>刘征行</h4>
+    <h4 style="font-size: 25px;">刘征行</h4>
     <p>(liuzhenghang)</p>
+
     <p>前端设计师  |  视觉设计师 </p>
-    <p class="text-mute">男  |  1990年 01月  |  上海-宝山区  </p>
+		<br>
+		<br>
+    <p class="text-mute">男  |  1990年 01月  |  杭州-滨江  </p>
    <p class="text-mute">                                       
   两年工作经验 | 18135634271(手机)<br/>                                             
   E-mail:18135634271@163.com</p>
@@ -134,20 +137,27 @@ $(document).ready(function() {
 	</div>
 </div>
 
-<div class="section">
-<div class="slide">
-<ul><li><img src="images/18da.jpg"/></li>
-<li><img src="images/18da.jpg"/></li>
-<!--linght box-->
-	</ul>
-</div>
-<div class="slide">
-<ul><li><img src="images/dama.jpg"/></li>
-<li><img src="images/dama.jpg"/></li>
-<!--linght box-->
-	</ul>
-</div>
+		<div class="section">
+		<div class="slide">
+			<div id="text1">
 
+			</div>
+		</div>
+		<div class="slide">
+			<div id="text2">
+
+			</div>
+		</div>
+			<div class="slide">
+				<div id="text4">
+
+				</div>
+			</div>
+		<div class="slide">
+				<div id="text3">
+
+				</div>
+		</div>
 	<div class="science-inner inner">
 		<a class="stiteml st1" href="javascript:void(0)" rel="0,-350,0,7">网络机顶盒</a>
 		<a class="stiteml st2" href="javascript:void(0)" rel="0,-350,0,37">干细胞人造肉</a>
@@ -278,11 +288,16 @@ $(document).ready(function() {
 
 
 
+<script>
+	$(document).ready(function() {
+		$('#text1').load('wdjl.html');
+		$('#text2').load('wdjl2.html');
+		$('#text3').load('wdjl3.html');
+		$('#text4').load('wdjl4.html');
+	});
+</script>
 
 
-<a href="http://www.dowebok.com/" style="display: none;">dowebok</a>
-<a href="http://www.dowebok.com/78.html" style="display: none;">用fullPage.js制作百度百科史记2013效果</a>
-<a href="http://www.dowebok.com/77.html" style="display: none;">jQuery全屏滚动插件fullPage.js</a>
 
 </body>
 </html>
